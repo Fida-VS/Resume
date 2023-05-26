@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    margin: auto;
+    max-width: 60%;
+    padding: 20px 100px;
+    background-color: #bbd8da;
+}
+
+.avatar {
+    margin-left: 25%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.card {
+    width: 50%;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 40px;
+    margin: auto;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.card a {
+    color: black;
+}
+
+.card a:hover {
+    font-weight: bold;
+}
+
+.card a:active {
+    color: rgb(56, 94, 94);
+}
+
+
+.card a:visited {
+    color: rgb(98, 170, 170);
+}
+
+.card h1, .card h2 {
+    margin-bottom: 20px;
+}
+
+.card p, .card h4 {
+    margin-bottom: 10px;
+}
+
+.card ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+} 
+
+.card ol li {
+    margin-bottom: 10px;
+}
+
+.card th, .card td {
+    padding: 8px;
+}
+
+.card th {
+    text-align: left;
+}
+
+.connection {
+    margin-left: 25%;
+}
+
+.connection h2 {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.connection form label {
+    font-weight: bold;
+}
+
+.connection form input {
+    margin: 15px;
+    width: 150px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.connection form textarea {
+    padding: 5px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+#email {
+    margin-bottom: 20px;
+}
+
+.connection .btn {
+width: 150px;
+height: 50px;
+font-family: inherit;
+font-weight: bold;
+cursor: pointer;
+background-color: darkgray;
+border-radius: 10px;
+}
+
+.connection .btn:hover {
+    background-color: lightgrey;
+}
